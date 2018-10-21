@@ -1,18 +1,18 @@
 <template>
   <div>
-    <HelloWorld/>
-    <HelloWorld/>
+    <h1>Home</h1>
+    <Hello></Hello>
   </div>
 </template>
 
 <script lang="ts">
   import {Component, Vue} from 'vue-property-decorator';
-  import HelloWorld from './components/HelloWorld.vue';
+  import Hello from './components/Hello.vue';
 
   @Component({
     components: {
-      HelloWorld,
-    },
+      Hello
+    }
   })
   export default class App extends Vue {
   }
